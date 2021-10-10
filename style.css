@@ -197,7 +197,8 @@ article.card .infos .details {
   transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
 }
 
-article.card:hover .infos {
+article.card:hover .infos,
+article.card:active .infos {
   transform: translateY(-260px);
 }
 
